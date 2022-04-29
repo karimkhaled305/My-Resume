@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+
+.myNav {
+    background-color: transparent;
+
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media screen and (max-width:800px) {
+
+    .parent
+    {
+        position: relative;
+        top: 40rem;
+        height: 150vh !important;
+    }
+    nav li {
+        margin-left: 0 !important;
+        margin-bottom: 1rem;
+    }
+    #contact
+    {
+        height: 40rem !important;
+    }
+    nav .container-fluid {
+        background-color: #fff;
+    }
+
+    input {
+        width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3,
+    h4,
+    h5,
+    button,
+    img {
+        margin-bottom: 2rem;
+
+    }
+
+    #letsTalk {
+        height: 75rem !important;
+    }
+
+
+    h2,
+    h3,
+    h4,
+    h5 {
+        text-align: center;
+    }
+}
+
+body {
+    background-color: rgb(242, 245, 247);
+    height: 150vh;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+
+nav li {
+    margin-left: 6rem;
+    font-size: 1.1rem;
+    color: rgb(88, 87, 149);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+header .container-fluid {
+    position: relative;
+    top: 12rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(88, 87, 149) !important;
+}
+
+header h2 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 3rem;
+}
+
+header img {
+    width: 80%;
+    border-radius: 25px;
+
+}
+
+
+header .myBtn {
+    background-color: rgb(88, 87, 149) !important;
+    width: 10rem;
+    height: 4rem;
+    margin-top: 2rem;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+header .myBtn:hover {
+    color: white !important;
+    background-color: rgb(117, 115, 182) !important;
+}
+
+header .myBtn2 {
+    background-color: teal !important;
+    width: 10rem;
+    height: 4rem;
+    margin-top: 2rem;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+header .myBtn2:hover {
+    color: white !important;
+    background-color: rgb(11, 179, 179) !important;
+}
+
+.myPortfolio {
+    background-color: rgb(242, 245, 247);
+    z-index: 99;
+    top: 8rem;
+}
+
+.parent {
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    z-index: 9999;
+
+}
+
+i {
+    transition: all 0.5s;
+}
+
+i:hover {
+    font-size: 1.3rem !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+
+.aboutMeSection {
+    position: relative;
+    top: 20rem;
+}
+
+.aboutMeSection h3 {
+    font-size: 1em;
+    color: rgb(134, 134, 134);
+}
+
+.aboutMeSection p,
+.aboutMeSection li {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+    word-spacing: 0.5rem;
+}
+
+.aboutMeSection h5 {
+    color: rgb(134, 134, 134);
+
+}
+
+.workExp {
+    position: relative;
+    top: 5rem;
+}
+
+.educate {
+    position: relative;
+    top: 17rem;
+}
+
+.educate h4 {
+
+    color: black;
+}
+
+.courses {
+    position: relative;
+    top: 22rem;
+
+}
+
+#quote {
+
+    position: relative;
+    top: 40rem;
+    height: 20rem;
+    color: white;
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(71, 70, 122);
+    border-radius: 10px;
+}
+
+#quote h2 {
+    max-width: 60%;
+}
+
+#quote p {
+    font-size: 1.3rem;
+    max-width: 60%;
+}
+
+
+#letsTalk {
+    position: relative;
+    top: 42rem;
+    height: 45rem;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+
+#letsTalk img {
+    border-radius: 25px;
+
+}
+
+#letsTalk h2 {
+    font-size: 4rem;
+
+}
+
+.inputs {
+    box-shadow: 1px 4px 5px;
+    padding: 1.5rem;
+}
+
+input,
+input:focus,
+input:active,
+textarea,
+textarea:focus {
+    background-color: rgb(241, 241, 241) !important;
+    box-shadow: none !important;
+
+}
+
+textarea {
+    display: block !important;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 6rem;
+    border: none;
+    padding: 1rem;
+}
+
+#letsTalk button {
+    width: 10rem !important;
+    height: 3rem !important;
+
+}
+
+#contact {
+    position: relative;
+    top: 44rem;
+    background-color: rgb(71, 70, 122);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 20rem;
+
+}
+
+#contact h2 {
+    color: white;
+    font-size: 3rem;
+}
+
+#contact i {
+    color: white !important;
+    font-size: 1.5rem !important;
+    transition: all 0.5s;
+}
+
+#contact h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-colored {
+    background-color: #fff;
+    box-shadow: 0px 0px 2px;
+}
+
+.nav-transparent {
+    background-color: transparent;
+}
+
+
+
+#contact i:hover
+{
+    color: crimson !important;
+}
+
+
+.mail p 
+
+{
+color: #fff;
+font-size: 1.3rem;
+}
+.phon p 
+
+{
+color: #fff;
+font-size: 1.3rem;
+}
+
+i{
+    cursor: pointer;
+}
